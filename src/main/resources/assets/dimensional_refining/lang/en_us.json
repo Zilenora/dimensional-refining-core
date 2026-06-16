@@ -9,5 +9,8 @@
   "examplemod.configuration.items": "Item List",
   "examplemod.configuration.logDirtBlock": "Log Dirt Block",
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "examplemod.configuration.magicNumber": "Magic Number",
+
+  "itemGroup.dimensional_refining": "Dimensional Refining",
+  "block.dimensional_refining.primitive_resonance_frame": "Primitive Resonance Frame"
 }
