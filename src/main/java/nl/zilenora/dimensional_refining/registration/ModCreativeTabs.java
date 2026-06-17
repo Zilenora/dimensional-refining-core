@@ -1,6 +1,5 @@
 package nl.zilenora.dimensional_refining.registration;
 
-import net.minecraft.world.item.Items;
 import nl.zilenora.dimensional_refining.DimensionalRefining;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -18,9 +17,9 @@ public final class ModCreativeTabs {
             CREATIVE_MODE_TABS.register("dimensional_refining_tab",
                     () -> CreativeModeTab.builder()
                             .title(Component.translatable("itemGroup.dimensional_refining"))
-                            .icon(() -> Items.IRON_INGOT.getDefaultInstance())
+                            .icon(() -> BlockItems.PRIMITIVE_RESONANCE_FRAME.get().getDefaultInstance())
                             .displayItems((parameters, output) -> {
-                                output.accept(BlockItems.PRIMITIVE_RESONANCE_FRAME.get());
+                                ModItems.addToCreativeTab(output);
                             })
                             .build());
 
