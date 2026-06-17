@@ -4,6 +4,11 @@
     "dimensional_refining:primitive_resonance_frame",
     "dimensional_refining:overworld_resonance_frame",
     "dimensional_refining:nether_resonance_frame",
-    "dimensional_refining:end_resonance_frame"
+    "dimensional_refining:end_resonance_frame",
+
+    "dimensional_refining:primitive_resonance_conduit",
+    "dimensional_refining:overworld_resonance_conduit",
+    "dimensional_refining:nether_resonance_conduit",
+    "dimensional_refining:end_resonance_conduit"
   ]
 }

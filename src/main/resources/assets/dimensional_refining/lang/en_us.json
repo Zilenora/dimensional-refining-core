@@ -12,8 +12,14 @@
   "examplemod.configuration.magicNumber": "Magic Number",
 
   "itemGroup.dimensional_refining": "Dimensional Refining",
+
   "block.dimensional_refining.primitive_resonance_frame": "Primitive Resonance Frame",
   "block.dimensional_refining.overworld_resonance_frame": "Overworld Resonance Frame",
   "block.dimensional_refining.nether_resonance_frame": "Nether Resonance Frame",
-  "block.dimensional_refining.end_resonance_frame": "End Resonance Frame"
+  "block.dimensional_refining.end_resonance_frame": "End Resonance Frame",
+
+  "block.dimensional_refining.primitive_resonance_conduit": "Primitive Resonance Conduit",
+  "block.dimensional_refining.overworld_resonance_conduit": "Overworld Resonance Conduit",
+  "block.dimensional_refining.nether_resonance_conduit": "Nether Resonance Conduit",
+  "block.dimensional_refining.end_resonance_conduit": "End Resonance Conduit"
 }
