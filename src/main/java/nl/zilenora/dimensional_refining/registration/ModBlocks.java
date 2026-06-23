@@ -3,6 +3,8 @@ package nl.zilenora.dimensional_refining.registration;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import nl.zilenora.dimensional_refining.DimensionalRefining;
+import nl.zilenora.dimensional_refining.registration.blocks.MatterContainmentVessel;
+import nl.zilenora.dimensional_refining.registration.blocks.ResonanceConduit;
 import nl.zilenora.dimensional_refining.registration.blocks.ResonanceFrame;
 
 public class ModBlocks {
@@ -10,6 +12,8 @@ public class ModBlocks {
 
     static {
         ResonanceFrame.register();
+        ResonanceConduit.register();
+        MatterContainmentVessel.register();
     }
 
     private ModBlocks() {

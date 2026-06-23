@@ -3,6 +3,8 @@
   "values": [
     "dimensional_refining:nether_resonance_frame",
 
-    "dimensional_refining:nether_resonance_conduit"
+    "dimensional_refining:nether_resonance_conduit",
+
+    "dimensional_refining:nether_matter_containment_vessel"
   ]
 }

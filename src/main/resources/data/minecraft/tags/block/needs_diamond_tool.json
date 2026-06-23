@@ -3,6 +3,8 @@
   "values": [
     "dimensional_refining:end_resonance_frame",
 
-    "dimensional_refining:end_resonance_conduit"
+    "dimensional_refining:end_resonance_conduit",
+
+    "dimensional_refining:end_matter_containment_vessel"
   ]
 }

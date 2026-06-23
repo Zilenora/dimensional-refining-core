@@ -4,6 +4,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.neoforge.registries.DeferredItem;
 import nl.zilenora.dimensional_refining.registration.ModItems;
+import nl.zilenora.dimensional_refining.registration.blocks.MatterContainmentVessel;
 import nl.zilenora.dimensional_refining.registration.blocks.ResonanceConduit;
 import nl.zilenora.dimensional_refining.registration.blocks.ResonanceFrame;
 
@@ -50,6 +51,27 @@ public class BlockItems {
             ResonanceConduit.END
     );
 
+//    Matter Containment Vessels
+    public static final DeferredItem<BlockItem> PRIMITIVE_MATTER_CONTAINMENT_VESSEL = ModItems.ITEMS.registerSimpleBlockItem(
+            "primitive_matter_containment_vessel",
+            MatterContainmentVessel.PRIMITIVE
+    );
+
+    public static final DeferredItem<BlockItem> OVERWORLD_MATTER_CONTAINMENT_VESSEL = ModItems.ITEMS.registerSimpleBlockItem(
+            "overworld_matter_containment_vessel",
+            MatterContainmentVessel.OVERWORLD
+    );
+
+    public static final DeferredItem<BlockItem> NETHER_MATTER_CONTAINMENT_VESSEL = ModItems.ITEMS.registerSimpleBlockItem(
+            "nether_matter_containment_vessel",
+            MatterContainmentVessel.NETHER
+    );
+
+    public static final DeferredItem<BlockItem> END_MATTER_CONTAINMENT_VESSEL = ModItems.ITEMS.registerSimpleBlockItem(
+            "end_matter_containment_vessel",
+            MatterContainmentVessel.END
+    );
+
     private BlockItems() {}
 
     public static void register() {
@@ -68,5 +90,11 @@ public class BlockItems {
         output.accept(OVERWORLD_RESONANCE_CONDUIT.get());
         output.accept(NETHER_RESONANCE_CONDUIT.get());
         output.accept(END_RESONANCE_CONDUIT.get());
+
+        // Matter Containment Vessels
+        output.accept(PRIMITIVE_MATTER_CONTAINMENT_VESSEL.get());
+        output.accept(OVERWORLD_MATTER_CONTAINMENT_VESSEL.get());
+        output.accept(NETHER_MATTER_CONTAINMENT_VESSEL.get());
+        output.accept(END_MATTER_CONTAINMENT_VESSEL.get());
     }
 }

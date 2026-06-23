@@ -21,5 +21,10 @@
   "block.dimensional_refining.primitive_resonance_conduit": "Primitive Resonance Conduit",
   "block.dimensional_refining.overworld_resonance_conduit": "Overworld Resonance Conduit",
   "block.dimensional_refining.nether_resonance_conduit": "Nether Resonance Conduit",
-  "block.dimensional_refining.end_resonance_conduit": "End Resonance Conduit"
+  "block.dimensional_refining.end_resonance_conduit": "End Resonance Conduit",
+
+  "block.dimensional_refining.primitive_matter_containment_vessel": "Primitive Matter Containment Vessel",
+  "block.dimensional_refining.overworld_matter_containment_vessel": "Overworld Matter Containment Vessel",
+  "block.dimensional_refining.nether_matter_containment_vessel": "Nether Matter Containment Vessel",
+  "block.dimensional_refining.end_matter_containment_vessel": "End Matter Containment Vessel"
 }

@@ -5,6 +5,9 @@
     "dimensional_refining:overworld_resonance_frame",
 
     "dimensional_refining:primitive_resonance_conduit",
-    "dimensional_refining:overworld_resonance_conduit"
+    "dimensional_refining:overworld_resonance_conduit",
+
+    "dimensional_refining:primitive_matter_containment_vessel",
+    "dimensional_refining:overworld_matter_containment_vessel"
   ]
 }
